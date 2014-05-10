@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">电影检索</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="moviename_et">请输入待搜索电影名称</string>
+    <string name="bt_name">搜索</string>
+    <string name="title_activity_item">ItemActivity</string>
+    <string name="title_activity_director">DirectorActivity</string>
+    <string name="title_activity_history">HistoryActivity</string>
+
+</resources>

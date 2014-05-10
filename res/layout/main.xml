@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal"
+        android:layout_margin="5dp">
+        <EditText
+            android:id="@+id/search_et"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/moviename_et"
+            android:layout_weight="1000"
+            android:text="北京爱情故事"
+            />
+        <Button
+            android:id="@+id/search_bt" 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bt_name"
+            />
+    </LinearLayout>
+	<ListView
+	    android:id="@+id/movieList" 
+	    android:layout_width="fill_parent"
+        android:layout_height="fill_parent" 
+        android:layout_margin="5dp"
+        android:layout_weight="2"
+	    />
+	<Button 
+	    android:id="@+id/historyBut"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_margin="2dp"
+	    android:text="查看访问历史"
+	    />
+</LinearLayout>

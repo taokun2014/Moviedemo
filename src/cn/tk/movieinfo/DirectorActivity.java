@@ -42,6 +42,7 @@ public class DirectorActivity extends Activity {
 			cv.put("image", p.getImagepath());
 			
 			db.insert("person", null, cv);
+			
 			workimage1.setImageBitmap(Utils.downloadBitmap(p.getWorkimage1()));
 			
 			workimage2.setImageBitmap(Utils.downloadBitmap(p.getWorkimage2()));

@@ -44,6 +44,7 @@ public class HistoryActivity extends Activity {
 		
 		
 		Cursor cursor = db.query("mytable", new String[]{"name","rating","year","image"}, null, null, null, null, null);
+		
 		Map<String, Object> map = null;
 		while(cursor.moveToNext()){
 			map = new HashMap<String, Object>();
